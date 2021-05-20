@@ -1,0 +1,191 @@
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* --------------------------------------- cont1 css code --------------------------------- */
+.cont1{
+    width: 100%;
+    height: 100vh;
+    
+}
+.cont1 .sect2{
+    width: 100%;
+    height: 100vh;
+    background: url("images/ice_cream_dessert_cookies.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    
+}
+.cont1 .sect1{
+    height: 70%;
+    width:  45%;
+    position: absolute;
+    background: url("images/ice_cream_dessert_cookies.jpg");
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    border: none;
+
+}
+.sect1:hover{
+    box-shadow: 5px 5px 12px 5px black;
+    cursor: pointer;
+}
+.sect1:hover ~ .sect2{
+    filter: blur(10px);
+}
+
+/* --------------------------------------- !cont1 css code --------------------------------- */
+
+
+/* --------------------------------------- cont2 css code --------------------------------- */
+.cont2{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.cont2 .sect2{
+    width: 100%;
+    height: 100vh;
+    background: url("images/drops_bubbles_grass_92142_1600x1200.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    
+}
+.cont2 .sect1{
+    height: 70%;
+    width:  45%;
+    position: absolute;
+    background: url("images/drops_bubbles_grass_92142_1600x1200.jpg");
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    border: none;
+    transform: translate(-50%, -50%);
+
+}
+.sect1:hover{
+    box-shadow: 5px 5px 12px 5px black;
+    cursor: pointer;
+}
+.sect1:hover ~ .sect2{
+    filter: blur(10px);
+}
+
+
+/* --------------------------------------- !cont2 css code --------------------------------- */
+
+
+
+/* --------------------------------------- cont3 css code --------------------------------- */
+.cont3{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.cont3 .sect2{
+    width: 100%;
+    height: 100vh;
+    background: url("images/lemon_glass_water.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    
+}
+.cont3 .sect1{
+    height: 70%;
+    width:  45%;
+    position: absolute;
+    background: url("images/lemon_glass_water.jpg");
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    border: none;
+
+}
+.sect1:hover{
+    box-shadow: 5px 5px 12px 5px black;
+    cursor: pointer;
+}
+.sect1:hover ~ .sect2{
+    filter: blur(10px);
+}
+
+
+/* --------------------------------------- !cont3 css code --------------------------------- */
+
+
+
+/* --------------------------------------- cont4 css code --------------------------------- */
+.cont4{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.cont4 .sect2{
+    width: 100%;
+    height: 100vh;
+    background: url("images/cookies_chocolate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    
+}
+.cont4 .sect1{
+    height: 70%;
+    width:  45%;
+    position: absolute;
+    background: url("images/cookies_chocolate.jpg");
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    border: none;
+
+}
+.sect1:hover{
+    box-shadow: 5px 5px 12px 5px black;
+    cursor: pointer;
+}
+.sect1:hover ~ .sect2{
+    filter: blur(10px);
+}
+
+
+/* --------------------------------------- !cont4 css code --------------------------------- */
+
+
+
+/* --------------------------------------- arrow css code --------------------------------- */
+.arrow{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+}
+span{
+    color: rgb(231, 183, 95);
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span:hover{
+    box-shadow: 5px 5px 8px 5px rgb(49, 45, 45);
+}
+span:hover ~ .arrow{
+    filter: blur(12px);
+    text-shadow: 23px;
+}
